@@ -35,8 +35,12 @@ dependencies {
     implementation 'junit:junit:4.12'
 
     implementation 'com.google.android.material:material:1.0.0'
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+
+    implementation 'com.google.firebase:firebase-core:16.0.9'
 
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:3.6.1'
 }
+
+apply plugin: 'com.google.gms.google-services'
